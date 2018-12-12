@@ -6,7 +6,7 @@ import ssl
 import gc
 
 cross_files = "cross_shop.txt"
-cross_start = 1000000000
+cross_start = 10000
 shop_list = []
 
 # 读取旧记录
