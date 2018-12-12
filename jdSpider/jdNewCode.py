@@ -45,8 +45,6 @@ def do_login():
     # 使用PhantomJS浏览器创建浏览器对象
     browser = webdriver.Chrome('../chromeDriver/chromedriver.exe')
     browser.get("https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fhome.jd.com%2F")
-
-    # browser.execute_script("$('#passwordid').val('PANGDA123'); $('input[name=\"userCode\"]').val(10000534);");
     # 等待20秒
     time.sleep(20)
 
