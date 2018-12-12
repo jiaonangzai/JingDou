@@ -34,6 +34,7 @@ except IOError:
         f.close()
 
 
+        
 # 获取当前时间
 def curr_time():
     return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
